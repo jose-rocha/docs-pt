@@ -223,7 +223,7 @@ methods: {
 
 É muito comum precisar chamar `event.preventDefault()` ou `event.stopPropagation()` dentro de manipuladores de evento. Ainda que possamos fazer isto facilmente dentro de métodos, seria melhor se os métodos pudessem ser puramente a respeito da lógica dos dados em vez de ter que lidar com detalhes de evento de DOM.
 
-Para tratar este problema, a Vue fornece **modificadores de evento** para `v-on`. Recorda-te de que os modificadores são nomes especiais depois do nome do evento denotados por um ponto.
+Para tratar este problema, o Vue fornece **modificadores de evento** para `v-on`. Recorda-te de que os modificadores são nomes especiais depois do nome do evento denotados por um ponto.
 
 - `.stop`
 - `.prevent`
@@ -278,7 +278,7 @@ Não utilize `.passive` e `.prevent` juntos, porque `.passive` já indica para o
 
 ## Modificadores de Tecla {#key-modifiers}
 
-Quando estivermos ouvindo por eventos teclado, precisamos com frequência verificar por teclas especificas. A Vue permite a adição de modificadores de tecla para `v-on` ou `@` quando estivermos ouvindo por eventos de tecla:
+Quando estivermos ouvindo por eventos teclado, precisamos com frequência verificar por teclas especificas. O Vue permite a adição de modificadores de tecla para `v-on` ou `@` quando estivermos ouvindo por eventos de tecla:
 
 ```vue-html
 <!-- só chama `vm.submit()` quando a `tecla` pressionada for `Enter` -->
@@ -295,7 +295,7 @@ No exemplo acima, o manipulador só será chamado se `$event.key` for igual a `'
 
 ### Pseudónimos de Tecla {#key-aliases}
 
-A Vue fornece pseudónimos para as teclas mais comummente utilizadas:
+O Vue fornece pseudónimos para as teclas mais comummente utilizadas:
 
 - `.enter`
 - `.tab`
