@@ -225,7 +225,7 @@ Consulte também: [Atribuindo Tipos as Emissões de Componente](/guide/typescrip
 
 </div>
 
-Ainda que opção, é recomendado definir todos eventos emitidos em ordem para documentar melhor como um componente deveria funcionar. Também permite a Vue excluir ouvintes conhecidos dos [atributos que caiem](/guide/components/attrs#v-on-listener-inheritance).
+Ainda que opção, é recomendado definir todos eventos emitidos em ordem para documentar melhor como um componente deveria funcionar. Também permite o Vue excluir ouvintes conhecidos dos [atributos que caiem](/guide/components/attrs#v-on-listener-inheritance).
 
 :::tip DICA
 Se um evento nativo (por exemplo, `click`) for definido na opção `emits`, o ouvinte agora apenas ouvirá os eventos `click` emitidos pelo componente e não mais responderá aos outros eventos `click` nativos.
