@@ -233,7 +233,7 @@ Se um evento nativo (por exemplo, `click`) for definido na opção `emits`, o ou
 
 ## Validação de Eventos {#events-validation}
 
-Semelhante a validação de tipo de propriedade, um evento emitido pode ser validado se for definido com a sintaxe de objeto no lugar da sintaxe de arranjo.
+Semelhante a validação de tipo de propriedade, um evento emitido pode ser validado se for definido com a sintaxe de objeto no lugar da sintaxe de array.
 
 Para adicionar a validação, o evento é atribuído à uma função que recebe os argumentos passados para chamada de <span class="options-api">`this.$emit`</span><span class="composition-api">`emit`</span> e retorna um booleano para indicar se o evento é válido ou não.
 
