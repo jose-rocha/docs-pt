@@ -283,7 +283,7 @@ Além disto, toda vez que o componente pai é atualizado, todas as propriedades 
 ```js
 const props = defineProps(['foo'])
 
-// ❌ aviso, "props" sõo para leitura apenas!
+// ❌ aviso, "props" são para leitura apenas!
 props.foo = 'bar'
 ```
 
@@ -294,7 +294,7 @@ props.foo = 'bar'
 export default {
   props: ['foo'],
   created() {
-    // ❌ aviso, "props" sõo para leitura apenas!
+    // ❌ aviso, "props" são para leitura apenas!
     this.foo = 'bar'
   }
 }
